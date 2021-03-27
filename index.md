@@ -73,7 +73,8 @@ SpringBoot + Spring + SpringMVC + MySQL + MyBatis + Guava Cache + Redis + Rocket
 <h3 id="2.5">压测展示</h3>
 #### 【秒杀压测】常规
 计算每一年课题组各指标平均分和总平均分，展示在主页当中
-![](media/16168451509214.jpg)
+![](media/16168460288950.jpg)
+
 #### 【秒杀压测】增加缓存和异步扣减库存
 ![教师评分页面](../images/课题组评分.jpg)
 
