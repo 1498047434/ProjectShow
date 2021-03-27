@@ -73,9 +73,11 @@ SpringBoot + Spring + SpringMVC + MySQL + MyBatis + Guava Cache + Redis + Rocket
 <h3 id="2.5">压测展示</h3>
 #### 【秒杀压测】常规
 （1）线程数500,循环次数30
+
 ![](media/16168465004751.jpg)
 ![](media/16168465585298.jpg)
 （2）线程数550,循环次数30
+
 ![](media/16168465986406.jpg)
 ![](media/16168470527289.jpg)
 此时开始出现异常，停止测试，出现异常会增加吞吐量
@@ -84,14 +86,18 @@ SpringBoot + Spring + SpringMVC + MySQL + MyBatis + Guava Cache + Redis + Rocket
 
 #### 【秒杀压测】增加缓存和异步扣减库存
 （1）线程数800，循环次数100
+
 ![](media/16168472496121.jpg)
 ![](media/16168473090741.jpg)
 （2）线程数1000，循环次数100
+
 ![](media/16168474200553.jpg)
 ![](media/16168474635982.jpg)
+
 （3）线程数1200，循环次数100
 ![](media/16168474908213.jpg)
 ![](media/16168475477238.jpg)
+
 （3）线程数1500，循环次数100
 ![](media/16168475686354.jpg)
 ![](media/16168475826189.jpg)
